@@ -21,6 +21,9 @@
     width: 100px;
     height: 100px;
     background: red;
+    animation-name: fadeOut;
+    animation-duration: 3s;
+    animation-delay: 2s;
 }
 .ex-5-square {
     margin: 20px;
@@ -83,4 +86,15 @@
 
 .ex-3-square:hover {
     border-radius: 50%;
+}
+
+@keyframes fadeOut {
+    
+    0% {
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+
 }
