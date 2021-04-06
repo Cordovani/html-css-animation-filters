@@ -34,7 +34,7 @@
 }
 .ex-6-img, .ex-7-img, .ex-8-img {
     width: 500px;
-    transition: filter 3s;
+    transition: filter 3s, border-radius 3s;    
 }
 
 .ex-9-img {
@@ -118,4 +118,10 @@
 .ex-7-img:hover {
     filter:opacity(0.7);
     filter: grayscale();
+}
+
+.ex-8-img:hover {
+    border-radius: 15px;
+    filter: grayscale();
+    filter: blur(3px);
 }
