@@ -2,13 +2,14 @@
     width: 100px;
     height: 100px;
     border: 1px solid red;
-    /* proprietà base al quale applicare il transitio */
+    /* proprietà base al quale applicare il transition */
     transition: background-color 3s;
 }
 .ex-2-square {
     width: 100px;
     height: 100px;
     background: red;
+    transition: width 3s;
 }
 .ex-3-square {
     width: 100px;
@@ -73,4 +74,8 @@
 .ex-1-square:hover {
     /* trigger e valore finale della proprietà */
     background-color: red;   
+}
+
+.ex-2-square:active {
+    width: 100%;
 }
